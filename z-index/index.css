@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h1{
+    margin-top: 30px;
+    display: grid;
+    place-items: center;
+}
+h1{
+    font-size: 35px;
+    text-shadow: 1px 1px 5px #ffbbbb;
+}
+section{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    margin-top:20px;
+    box-shadow: 2px 1px 2px 3px #7e6f6f;
+    background: linear-gradient(to right bottom, rgba(255,20,120,0.8),rgba(20,130,120,0.9));
+}
+.child{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(3, 74, 94);
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
+}
+.child-2{
+    z-index:4;
+}
+.child-4{
+    z-index:2;
+}
+.child-3{
+    z-index:3;
+}
