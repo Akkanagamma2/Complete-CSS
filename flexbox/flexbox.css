@@ -28,8 +28,12 @@ h2{
     box-shadow: 3px 2px 5px lightgreen;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap:20px;
+
+    flex-wrap: wrap;
 }
+
 .item{
     width: 100px;
     height: 100px;
@@ -42,12 +46,16 @@ h2{
 .item-1{
     background-color: grey;
 }
-.item-2{
+/* .item-2{
+    flex-grow: 1;
+    flex-shrink: 1; /*it will shrink _ times of other items
     background-color: goldenrod;
-}
+} */
 .item-3{
-    background-color: blueviolet;
+    /* flex-basis: 200px; it will overide the original width of item */
+     background-color: blueviolet;
 }
 .item-4{
+    /* align-self: flex-start;  */
     background-color: burlywood;
 }
